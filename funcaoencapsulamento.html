@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+
+
+		<script type="text/javascript">
+
+			let Carro = function() {
+
+				this.cor = 'amarelo'
+				this.modelo = 'chevet'
+				this.velocidadeatual = 0
+				this.velocidademaxima = 180
+
+				this.acelerar = function(){
+					let velocidade = this.getVelocidadeatual() + 10
+					this.setVelocidadeatual(velocidade)
+				}
+
+				this.getVelocidadeatual = function(){
+					return this.velocidadeatual
+				}
+
+				this.setVelocidadeatual = function(velocidadeatual){
+					this.velocidadeatual = velocidadeatual
+				}
+
+
+			}
+
+			
+			
+		</script>
+
+	</head>
+
+
+
+	<body>
+		<div></div>
+
+
+	</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+
+
+		<script type="text/javascript">
+
+			class Produto{
+				constructor(descricao, preco){
+					this.descricao = descricao
+					this.preco = preco
+				}
+
+				verDescricao(){
+					console.log(`${this.descricao} por apenas ${this.preco}`)
+				}
+			}
+
+			let produto = new Produto('notebook', 2200)
+			produto.verDescricao()
+
+
+			//--------------------------------
+
+			let produtoLiteral = {
+				descricao: 'geladeira',
+				preco: 2200,
+
+				verDescricao:function(){
+					console.log(`${this.descricao} por apenas ${this.preco}`)
+				}
+			}
+
+			produtoLiteral.verDescricao()
+
+			
+		</script>
+
+	</head>
+
+
+
+	<body>
+		<div></div>
+
+
+	</body>
+
+</html>

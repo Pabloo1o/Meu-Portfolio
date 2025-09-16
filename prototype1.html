@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+
+
+		<script type="text/javascript">
+
+			//literal
+
+			let a1 = {
+				cor : 'branco',
+				modelo : 'airbus',
+				levantarvoo : function(){ console.log('levantar voo')}
+			}
+
+			//construtora
+
+			let aviaoF = function(){
+				this.cor = 'azul'
+				this.modelo = 'gol'
+				this.levantarvoo = function(){console.log('levantar voo')}
+			}
+
+			let a2 = new aviaoF()
+
+			class aviaoc {
+				constructor(){
+					this.cor= ' vermelho'
+					this.modelo = 'embraer'
+
+				}
+
+				levantarvoo(){
+					console.log('levantar voo')
+				}
+			}
+
+			let a3 = new aviaoc
+
+			console.log(a1)
+			console.log(a2)
+			console.log(a3)
+			
+			
+		</script>
+
+	</head>
+
+
+
+	<body>
+		<div></div>
+
+
+	</body>
+
+</html>

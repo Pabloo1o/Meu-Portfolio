@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+
+    <script type="text/javascript">
+
+      let produto = {
+        descr: 'note',
+        preco: 2000,
+        detalhes: {
+          fabricante: 'abc',
+          modelo: 'xyz' 
+        }
+      }
+
+      //let {descr, preco} = produto
+
+      let {descr: d, preco:p} = produto
+      console.log(d,p)
+
+      let {detalhes: {fabricante,modelo}} = produto
+
+      console.log(fabricante,modelo)
+
+    </script>
+
+  </head>
+
+
+
+  <body>
+    <div></div>
+
+
+  </body>
+
+</html>

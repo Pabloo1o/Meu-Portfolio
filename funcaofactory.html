@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+
+
+		<script type="text/javascript">
+
+			let Bicicleta1 = {
+				cor: 'branca',
+				marcha: 'unica',
+				aro: 12,
+				pedalar(){ console.log('metodo pedalar')}
+
+			}
+
+			console.log(Bicicleta1)
+
+			let BicicletaFactory = function(cor, marcha, aro) {
+				return {
+					cor: cor,
+					marcha: marcha,
+					aro: aro,
+					pedalar(){ console.log('metodo pedalar')}
+				}
+			}
+
+			let Bicicleta3 = BicicletaFactory('vermelha' , '18', 3)
+			console.log(Bicicleta3)
+
+			Bicicleta3.cor = 'verde'
+			console.log(Bicicleta3)
+			
+			
+		</script>
+
+	</head>
+
+
+
+	<body>
+		<div></div>
+
+
+	</body>
+
+</html>

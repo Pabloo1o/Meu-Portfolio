@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<script type="text/javascript">
+
+			class Cadeira {
+
+				constructor(qtdepernas, giratoria, cor ){
+					private this.qtdepernas = qtdepernas
+					this.giratoria = giratoria
+					this.cor = cor
+				}
+
+				girar(){
+					if(this.giratoria === true){
+						console.log('girou')
+
+					}else{
+						console.log('cadeira n giratoria')
+					}
+				}
+
+
+
+
+			}
+
+
+			let x = new Cadeira(4, false, 'azul')
+			let x2 = new Cadeira(4, true, 'verde')
+
+
+			x.girar()
+			x2.girar()
+
+
+		
+		</script>
+
+	</head>
+
+
+
+	<body>
+		<div></div>
+
+
+	</body>
+
+</html>
