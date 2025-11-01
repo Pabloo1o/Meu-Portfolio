@@ -1,6 +1,6 @@
 # Meu-Portfolio
 
-Desenvolvedor em formação, com conhecimentos em HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, AJAX, jQuery, Python, Orientação a Objetos, ECMAScript, PHP com PDO e Arquitetura MVC.
+Desenvolvedor em formação, com conhecimentos em:
 
 
 HMTL,
@@ -17,4 +17,4 @@ JQUERY,
 ARQUITETURA MVC,
 PYTHON.
 
-E SEMPRE BUSCANDO AINDA MAIS CONHECIMENTO!!!
+Sempre em busca de aprendizado contínuo.
